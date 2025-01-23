@@ -33,12 +33,10 @@ public class BankAccount2 {
         }
     }
 
-    // Method to get the current balance
     public double getBalance() {
         return balance;
     }
 
-    // Optional: Getter for accountNumber, if needed
     public String getAccountNumber() {
         return accountNumber;
     }
