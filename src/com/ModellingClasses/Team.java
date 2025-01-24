@@ -14,7 +14,7 @@ public class Team {
         this.players = new ArrayList<>();
     }
 
-    // Method to add a player to the team
+
     public boolean addPlayer(Player player) {
         for (Player p : players) {
             if (p.getName().equals(player.getName())) {
@@ -26,7 +26,7 @@ public class Team {
         return true;
     }
 
-    // Method to remove a player from the team by name
+
     public boolean removePlayer(String playerName) {
         for (Player player : players) {
             if (player.getName().equals(playerName)) {
@@ -34,15 +34,15 @@ public class Team {
                 return true;
             }
         }
-        return false; // Player not found
+        return false;
     }
 
-    // Method to get the list of all players in the team
+
     public List<Player> getPlayers() {
         return players;
     }
 
-    // Method to print team information
+
     public void printTeamInfo() {
         System.out.println("Team: " + teamName);
         System.out.println("Players:");
