@@ -11,4 +11,5 @@ public class Person extends IWeightable {
     public double getWeight() {
         return this.weight;
     }
+
 }

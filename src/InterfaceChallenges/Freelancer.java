@@ -24,4 +24,6 @@ public class Freelancer extends Payable {
     public double getHourlyRate() {
         return hourlyRate;
     }
+
+
 }
